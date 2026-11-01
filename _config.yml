@@ -1,0 +1,15 @@
+title: gander-tools
+tagline: open-source tools, libraries and userscripts by gander
+description: Open-source tools, libraries and userscripts built and maintained by gander.
+url: https://gander-tools.github.io
+baseurl: ""
+owner:
+  name: gander
+  url: https://github.com/gander
+org_url: https://github.com/gander-tools
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

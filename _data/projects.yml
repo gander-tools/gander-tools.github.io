@@ -1,0 +1,89 @@
+# Public repositories of the gander-tools organization, grouped for the landing page.
+# Each project: name, repo (owner/name), description, language, optional links (label + url).
+# Set `archived: true` on a group to render it as an archive section.
+
+- group: Userscripts
+  intro: Browser userscripts for Tampermonkey or Violentmonkey.
+  projects:
+    - name: osm-helper
+      repo: gander-tools/osm-helper
+      language: TypeScript
+      description: Enhances the OpenStreetMap editing experience by adding links to popular OSM tools, such as OSMCha and Achavi, right on the OSM website.
+    - name: monkey-redmine-time-widget
+      repo: gander-tools/monkey-redmine-time-widget
+      language: TypeScript
+      description: Shows on a Redmine issue page how much time has been logged on the issue and its subtasks, and how much is left of the estimate.
+
+- group: No Man's Sky
+  intro: Helpers for checking frigate statistics in No Man's Sky.
+  projects:
+    - name: nms-frigate-calc
+      repo: gander-tools/nms-frigate-calc
+      language: Vue
+      description: A dynamic calculator that quickly checks whether a frigate has the correct statistics and is worth buying.
+      links:
+        - label: nms.gander.tools
+          url: https://nms.gander.tools
+    - name: nms-lib
+      repo: gander-tools/nms-lib
+      language: TypeScript
+      description: A library of functions for calculating the base statistics of a frigate, used by the calculator.
+
+- group: JavaScript and TypeScript
+  projects:
+    - name: flexy-deps
+      repo: gander-tools/flexy-deps
+      language: TypeScript
+      description: A recipe-based dependency tool inspired by Symfony Flex. Add common tool combinations to a project with a single interactive command.
+      links:
+        - label: npm
+          url: https://npm.im/flexy-deps
+    - name: cf-nonce-middleware
+      repo: gander-tools/cf-nonce-middleware
+      language: TypeScript
+      description: A Cloudflare Worker middleware that injects CSP nonces into responses.
+    - name: playground-js-lib
+      repo: gander-tools/playground-js-lib
+      language: TypeScript
+      description: A sandbox for trying out multi-system modules, linters, tests and publishing to different registries. Learn from its git history, not its code.
+      links:
+        - label: npm
+          url: https://npm.im/@gander-tools/playground
+
+- group: PHP and Symfony
+  projects:
+    - name: symfony-validator-constraints
+      repo: gander-tools/symfony-validator-constraints
+      language: PHP
+      description: Custom Symfony Validator constraints.
+    - name: symfony-callback-denormalizer
+      repo: gander-tools/symfony-callback-denormalizer
+      language: PHP
+      description: A Symfony Serializer denormalizer driven by callbacks.
+    - name: symfony-transparent-pixel-response
+      repo: gander-tools/symfony-transparent-pixel-response
+      language: PHP
+      description: A Symfony Response that returns a 1×1 transparent GIF, commonly used to track e-mail opens.
+    - name: pimcore-toolbox
+      repo: gander-tools/pimcore-toolbox
+      language: PHP
+      description: A Pimcore bundle with helper tools, installable with Composer.
+    - name: playground-php-lib
+      repo: gander-tools/playground-php-lib
+      language: PHP
+      description: The PHP counterpart of the playground, used to experiment with tooling and publishing on Packagist.
+
+- group: Archived
+  archived: true
+  projects:
+    - name: docker-dev
+      repo: gander-tools/docker-dev
+      language: Shell
+      description: A PHP and Apache development image with a dev user (UID 1000).
+      links:
+        - label: Docker Hub
+          url: https://hub.docker.com/r/gander/dev
+    - name: fontawesome-pro-preservation-scripts
+      repo: gander-tools/fontawesome-pro-preservation-scripts
+      language: Shell
+      description: Scripts for archiving Font Awesome 7 Pro assets for permanent offline use under a perpetual license, before a subscription expires.
